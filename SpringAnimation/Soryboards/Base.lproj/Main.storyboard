@@ -74,6 +74,7 @@
                     <connections>
                         <outlet property="springAnimationLabel" destination="Kvt-ev-sEa" id="0X7-M5-FsP"/>
                         <outlet property="springAnimationView" destination="z49-y2-4FS" id="LWj-y7-6bg"/>
+                        <outlet property="textButton" destination="qd3-tt-WBU" id="JBK-d6-NuX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

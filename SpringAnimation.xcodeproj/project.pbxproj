@@ -53,6 +53,41 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		9951F3A2263A062A001063B8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				995D0E2B263860F800C9FE41 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9951F3A4263A064C001063B8 /* Soryboards */ = {
+			isa = PBXGroup;
+			children = (
+				995D0E2D263860F800C9FE41 /* Main.storyboard */,
+				995D0E32263860F900C9FE41 /* LaunchScreen.storyboard */,
+			);
+			path = Soryboards;
+			sourceTree = "<group>";
+		};
+		9951F3A5263A0668001063B8 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				995D0E35263860F900C9FE41 /* Info.plist */,
+				995D0E27263860F800C9FE41 /* AppDelegate.swift */,
+				995D0E29263860F800C9FE41 /* SceneDelegate.swift */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		9951F3A8263A0698001063B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				99779039263886AD001A40AA /* model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		995D0E1B263860F800C9FE41 = {
 			isa = PBXGroup;
 			children = (
@@ -74,14 +109,11 @@
 		995D0E26263860F800C9FE41 /* SpringAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				995D0E27263860F800C9FE41 /* AppDelegate.swift */,
-				995D0E29263860F800C9FE41 /* SceneDelegate.swift */,
-				995D0E2B263860F800C9FE41 /* ViewController.swift */,
-				99779039263886AD001A40AA /* model.swift */,
-				995D0E2D263860F800C9FE41 /* Main.storyboard */,
+				9951F3A2263A062A001063B8 /* ViewControllers */,
+				9951F3A4263A064C001063B8 /* Soryboards */,
+				9951F3A8263A0698001063B8 /* Model */,
+				9951F3A5263A0668001063B8 /* Supports */,
 				995D0E30263860F900C9FE41 /* Assets.xcassets */,
-				995D0E32263860F900C9FE41 /* LaunchScreen.storyboard */,
-				995D0E35263860F900C9FE41 /* Info.plist */,
 			);
 			path = SpringAnimation;
 			sourceTree = "<group>";
@@ -361,12 +393,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TG8B85Z23T;
-				INFOPLIST_FILE = SpringAnimation/Info.plist;
+				INFOPLIST_FILE = SpringAnimation/Supports/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.practice.SpringAnimation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.practice.SpringAnimation2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -381,12 +413,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TG8B85Z23T;
-				INFOPLIST_FILE = SpringAnimation/Info.plist;
+				INFOPLIST_FILE = SpringAnimation/Supports/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.practice.SpringAnimation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.practice.SpringAnimation2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
